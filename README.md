@@ -1,7 +1,7 @@
 # css-distribute-on-circle
 Automatically distribute any amount of elements around a circle with css.
 
-Originally by @HugoGiraudel on his [blog](https://hugogiraudel.com/2013/04/02/items-on-circle/), but I added the ability automatically adapt to the amount of elements.
+Originally by @HugoGiraudel on his [blog](https://hugogiraudel.com/2013/04/02/items-on-circle/), but I added the ability to automatically adapt to the amount of elements.
 
 ## Usage
 
