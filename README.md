@@ -1,5 +1,6 @@
 # css-distribute-on-circle
 Automatically distribute any amount of elements around a circle with css.
+Originally by @HugoGiraudel on his [blog](https://hugogiraudel.com/2013/04/02/items-on-circle/), but I added the ability automatically adapt to the amount of elements.
 
 ## Usage
 
@@ -24,7 +25,7 @@ Sass:
 @import 'distribute-on-circle.scss';
 
 .circle-container {
-  @include distribute-on-circle(32, 20em, 6em);
+  @include distribute-on-circle(8, 20em, 6em);
   margin: 5em auto 0;
   border: solid 5px tomato;
 }
