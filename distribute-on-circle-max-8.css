@@ -1,0 +1,135 @@
+.circle-container {
+  position: relative;
+  width: 20em;
+  height: 20em;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+  box-sizing: content-box;
+  transform: rotate(-90deg);
+  margin: 5em auto 0;
+  border: solid 5px tomato;
+}
+.circle-container > * {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6em;
+  height: 6em;
+  margin: -3em;
+}
+.circle-container > :first-child:nth-last-child(1) {
+  transform: rotate(0deg) translate(10em) rotate(90deg);
+}
+.circle-container > :first-child:nth-last-child(1) ~ :nth-of-type(2) {
+  transform: rotate(360deg) translate(10em) rotate(-270deg);
+}
+.circle-container > :first-child:nth-last-child(1) ~ :nth-of-type(1) {
+  transform: rotate(720deg) translate(10em) rotate(-630deg);
+}
+.circle-container > :first-child:nth-last-child(2) {
+  transform: rotate(0deg) translate(10em) rotate(90deg);
+}
+.circle-container > :first-child:nth-last-child(2) ~ :nth-of-type(2) {
+  transform: rotate(180deg) translate(10em) rotate(-90deg);
+}
+.circle-container > :first-child:nth-last-child(3) {
+  transform: rotate(0deg) translate(10em) rotate(90deg);
+}
+.circle-container > :first-child:nth-last-child(3) ~ :nth-of-type(2) {
+  transform: rotate(120deg) translate(10em) rotate(-30deg);
+}
+.circle-container > :first-child:nth-last-child(3) ~ :nth-of-type(3) {
+  transform: rotate(240deg) translate(10em) rotate(-150deg);
+}
+.circle-container > :first-child:nth-last-child(4) {
+  transform: rotate(0deg) translate(10em) rotate(90deg);
+}
+.circle-container > :first-child:nth-last-child(4) ~ :nth-of-type(2) {
+  transform: rotate(90deg) translate(10em) rotate(0deg);
+}
+.circle-container > :first-child:nth-last-child(4) ~ :nth-of-type(3) {
+  transform: rotate(180deg) translate(10em) rotate(-90deg);
+}
+.circle-container > :first-child:nth-last-child(4) ~ :nth-of-type(4) {
+  transform: rotate(270deg) translate(10em) rotate(-180deg);
+}
+.circle-container > :first-child:nth-last-child(5) {
+  transform: rotate(0deg) translate(10em) rotate(90deg);
+}
+.circle-container > :first-child:nth-last-child(5) ~ :nth-of-type(2) {
+  transform: rotate(72deg) translate(10em) rotate(18deg);
+}
+.circle-container > :first-child:nth-last-child(5) ~ :nth-of-type(3) {
+  transform: rotate(144deg) translate(10em) rotate(-54deg);
+}
+.circle-container > :first-child:nth-last-child(5) ~ :nth-of-type(4) {
+  transform: rotate(216deg) translate(10em) rotate(-126deg);
+}
+.circle-container > :first-child:nth-last-child(5) ~ :nth-of-type(5) {
+  transform: rotate(288deg) translate(10em) rotate(-198deg);
+}
+.circle-container > :first-child:nth-last-child(6) {
+  transform: rotate(0deg) translate(10em) rotate(90deg);
+}
+.circle-container > :first-child:nth-last-child(6) ~ :nth-of-type(2) {
+  transform: rotate(60deg) translate(10em) rotate(30deg);
+}
+.circle-container > :first-child:nth-last-child(6) ~ :nth-of-type(3) {
+  transform: rotate(120deg) translate(10em) rotate(-30deg);
+}
+.circle-container > :first-child:nth-last-child(6) ~ :nth-of-type(4) {
+  transform: rotate(180deg) translate(10em) rotate(-90deg);
+}
+.circle-container > :first-child:nth-last-child(6) ~ :nth-of-type(5) {
+  transform: rotate(240deg) translate(10em) rotate(-150deg);
+}
+.circle-container > :first-child:nth-last-child(6) ~ :nth-of-type(6) {
+  transform: rotate(300deg) translate(10em) rotate(-210deg);
+}
+.circle-container > :first-child:nth-last-child(7) {
+  transform: rotate(0deg) translate(10em) rotate(90deg);
+}
+.circle-container > :first-child:nth-last-child(7) ~ :nth-of-type(2) {
+  transform: rotate(51.4285714286deg) translate(10em) rotate(38.5714285714deg);
+}
+.circle-container > :first-child:nth-last-child(7) ~ :nth-of-type(3) {
+  transform: rotate(102.8571428571deg) translate(10em) rotate(-12.8571428571deg);
+}
+.circle-container > :first-child:nth-last-child(7) ~ :nth-of-type(4) {
+  transform: rotate(154.2857142857deg) translate(10em) rotate(-64.2857142857deg);
+}
+.circle-container > :first-child:nth-last-child(7) ~ :nth-of-type(5) {
+  transform: rotate(205.7142857143deg) translate(10em) rotate(-115.7142857143deg);
+}
+.circle-container > :first-child:nth-last-child(7) ~ :nth-of-type(6) {
+  transform: rotate(257.1428571429deg) translate(10em) rotate(-167.1428571429deg);
+}
+.circle-container > :first-child:nth-last-child(7) ~ :nth-of-type(7) {
+  transform: rotate(308.5714285714deg) translate(10em) rotate(-218.5714285714deg);
+}
+.circle-container > :first-child:nth-last-child(8) {
+  transform: rotate(0deg) translate(10em) rotate(90deg);
+}
+.circle-container > :first-child:nth-last-child(8) ~ :nth-of-type(2) {
+  transform: rotate(45deg) translate(10em) rotate(45deg);
+}
+.circle-container > :first-child:nth-last-child(8) ~ :nth-of-type(3) {
+  transform: rotate(90deg) translate(10em) rotate(0deg);
+}
+.circle-container > :first-child:nth-last-child(8) ~ :nth-of-type(4) {
+  transform: rotate(135deg) translate(10em) rotate(-45deg);
+}
+.circle-container > :first-child:nth-last-child(8) ~ :nth-of-type(5) {
+  transform: rotate(180deg) translate(10em) rotate(-90deg);
+}
+.circle-container > :first-child:nth-last-child(8) ~ :nth-of-type(6) {
+  transform: rotate(225deg) translate(10em) rotate(-135deg);
+}
+.circle-container > :first-child:nth-last-child(8) ~ :nth-of-type(7) {
+  transform: rotate(270deg) translate(10em) rotate(-180deg);
+}
+.circle-container > :first-child:nth-last-child(8) ~ :nth-of-type(8) {
+  transform: rotate(315deg) translate(10em) rotate(-225deg);
+}
